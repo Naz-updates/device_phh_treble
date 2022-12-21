@@ -1,5 +1,6 @@
 ro.adb.secure=0
 ro.debuggable=1
+ro.spark.maintainer=Nazim
 #Some devices have sdcardfs kernel panicing on 8.0
 #Disable for everyone for the moment
 ro.sys.sdcardfs=0
