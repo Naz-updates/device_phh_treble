@@ -59,9 +59,8 @@ PRODUCT_COPY_FILES += \
 
 # NFC:
 #   Provide default libnfc-nci.conf file for devices that does not have one in
-#   vendor/etc
-PRODUCT_COPY_FILES += \
-	device/phh/treble/nfc/libnfc-nci.conf:system/phh/libnfc-nci-oreo.conf \
+        system/nfc/conf/libnfc-nci.conf:system/etc/libnfc-nci.conf \
+        device/phh/treble/nfc/libnfc-nci.conf:system/phh/libnfc-nci-oreo.conf \
 	device/phh/treble/nfc/libnfc-nci-huawei.conf:system/phh/libnfc-nci-huawei.conf
 
 # LineageOS build may need this to make NFC work
