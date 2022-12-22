@@ -18,3 +18,6 @@ TARGET_FACE_UNLOCK_SUPPORTED := true
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.system.ota.json_url=https://raw.githubusercontent.com/naz664/SparkOS_gsi/13/ota.json
 
+#prebuilts
+PRODUCT_PACKAGES += \
+  OpenEUICC \
